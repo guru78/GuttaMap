@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFA64EC817A2911400C5CFCA /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA64EC717A2911400C5CFCA /* MKMapView+ZoomLevel.m */; };
+		EFA64EC917A2911400C5CFCA /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA64EC717A2911400C5CFCA /* MKMapView+ZoomLevel.m */; };
+		EFA8578F17A0E71D00BBCB2F /* gg.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA8578E17A0E71D00BBCB2F /* gg.png */; };
+		EFA8579017A0E71D00BBCB2F /* gg.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA8578E17A0E71D00BBCB2F /* gg.png */; };
+		EFA9EA0117A3F86E00BA1189 /* gg2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA9EA0017A3F86E00BA1189 /* gg2.png */; };
+		EFA9EA0217A3F86E00BA1189 /* gg2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA9EA0017A3F86E00BA1189 /* gg2.png */; };
+		EFB9A84B179E41A700408525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A84A179E41A700408525 /* UIKit.framework */; };
+		EFB9A84D179E41A700408525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A84C179E41A700408525 /* Foundation.framework */; };
+		EFB9A84F179E41A700408525 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A84E179E41A700408525 /* CoreGraphics.framework */; };
+		EFB9A855179E41A700408525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A853179E41A700408525 /* InfoPlist.strings */; };
+		EFB9A857179E41A700408525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9A856179E41A700408525 /* main.m */; };
+		EFB9A85B179E41A700408525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9A85A179E41A700408525 /* AppDelegate.m */; };
+		EFB9A85D179E41A700408525 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A85C179E41A700408525 /* Default.png */; };
+		EFB9A85F179E41A800408525 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A85E179E41A800408525 /* Default@2x.png */; };
+		EFB9A861179E41A800408525 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A860179E41A800408525 /* Default-568h@2x.png */; };
+		EFB9A864179E41A800408525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9A863179E41A800408525 /* ViewController.m */; };
+		EFB9A867179E41A800408525 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A865179E41A800408525 /* ViewController_iPhone.xib */; };
+		EFB9A86A179E41A800408525 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A868179E41A800408525 /* ViewController_iPad.xib */; };
+		EFB9A872179E41A800408525 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A871179E41A800408525 /* SenTestingKit.framework */; };
+		EFB9A873179E41A800408525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A84A179E41A700408525 /* UIKit.framework */; };
+		EFB9A874179E41A800408525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A84C179E41A700408525 /* Foundation.framework */; };
+		EFB9A87C179E41A800408525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A87A179E41A800408525 /* InfoPlist.strings */; };
+		EFB9A87F179E41A800408525 /* GataDrideDemo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9A87E179E41A800408525 /* GataDrideDemo1Tests.m */; };
+		EFB9A889179E43DE00408525 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A888179E43DE00408525 /* MapKit.framework */; };
+		EFB9A88B179E43E800408525 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB9A88A179E43E800408525 /* CoreLocation.framework */; };
+		EFB9A893179E47A200408525 /* DDAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9A892179E47A200408525 /* DDAnnotation.m */; };
+		EFB9A894179E47A200408525 /* DDAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9A892179E47A200408525 /* DDAnnotation.m */; };
+		EFB9A896179E690400408525 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A895179E690400408525 /* Icon.png */; };
+		EFB9A897179E690400408525 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB9A895179E690400408525 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB9A875179E41A800408525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB9A83F179E41A700408525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB9A846179E41A700408525;
+			remoteInfo = GataDrideDemo1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFA64EC617A2911400C5CFCA /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		EFA64EC717A2911400C5CFCA /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		EFA8578E17A0E71D00BBCB2F /* gg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gg.png; sourceTree = "<group>"; };
+		EFA9EA0017A3F86E00BA1189 /* gg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gg2.png; sourceTree = "<group>"; };
+		EFB9A847179E41A700408525 /* GattaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GattaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB9A84A179E41A700408525 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFB9A84C179E41A700408525 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFB9A84E179E41A700408525 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFB9A852179E41A700408525 /* GattaMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GattaMap-Info.plist"; sourceTree = "<group>"; };
+		EFB9A854179E41A700408525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFB9A856179E41A700408525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB9A858179E41A700408525 /* GattaMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GattaMap-Prefix.pch"; sourceTree = "<group>"; };
+		EFB9A859179E41A700408525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFB9A85A179E41A700408525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFB9A85C179E41A700408525 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EFB9A85E179E41A800408525 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EFB9A860179E41A800408525 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EFB9A862179E41A800408525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFB9A863179E41A800408525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFB9A866179E41A800408525 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		EFB9A869179E41A800408525 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		EFB9A870179E41A800408525 /* GattaMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GattaMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB9A871179E41A800408525 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFB9A879179E41A800408525 /* GattaMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GattaMapTests-Info.plist"; sourceTree = "<group>"; };
+		EFB9A87B179E41A800408525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFB9A87D179E41A800408525 /* GataDrideDemo1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GataDrideDemo1Tests.h; sourceTree = "<group>"; };
+		EFB9A87E179E41A800408525 /* GataDrideDemo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GataDrideDemo1Tests.m; sourceTree = "<group>"; };
+		EFB9A888179E43DE00408525 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EFB9A88A179E43E800408525 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EFB9A891179E47A200408525 /* DDAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAnnotation.h; sourceTree = "<group>"; };
+		EFB9A892179E47A200408525 /* DDAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAnnotation.m; sourceTree = "<group>"; };
+		EFB9A895179E690400408525 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB9A844179E41A700408525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9A88B179E43E800408525 /* CoreLocation.framework in Frameworks */,
+				EFB9A889179E43DE00408525 /* MapKit.framework in Frameworks */,
+				EFB9A84B179E41A700408525 /* UIKit.framework in Frameworks */,
+				EFB9A84D179E41A700408525 /* Foundation.framework in Frameworks */,
+				EFB9A84F179E41A700408525 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB9A86C179E41A800408525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9A872179E41A800408525 /* SenTestingKit.framework in Frameworks */,
+				EFB9A873179E41A800408525 /* UIKit.framework in Frameworks */,
+				EFB9A874179E41A800408525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA64EC517A290FE00C5CFCA /* ZoomLevel */ = {
+			isa = PBXGroup;
+			children = (
+				EFA64EC617A2911400C5CFCA /* MKMapView+ZoomLevel.h */,
+				EFA64EC717A2911400C5CFCA /* MKMapView+ZoomLevel.m */,
+			);
+			name = ZoomLevel;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFB9A83E179E41A700408525 = {
+			isa = PBXGroup;
+			children = (
+				EFB9A88A179E43E800408525 /* CoreLocation.framework */,
+				EFB9A888179E43DE00408525 /* MapKit.framework */,
+				EFB9A850179E41A700408525 /* GataDrideDemo1 */,
+				EFB9A877179E41A800408525 /* GataDrideDemo1Tests */,
+				EFB9A849179E41A700408525 /* Frameworks */,
+				EFB9A848179E41A700408525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB9A848179E41A700408525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9A847179E41A700408525 /* GattaMap.app */,
+				EFB9A870179E41A800408525 /* GattaMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB9A849179E41A700408525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9A88C179E444300408525 /* Annotations */,
+				EFB9A84A179E41A700408525 /* UIKit.framework */,
+				EFB9A84C179E41A700408525 /* Foundation.framework */,
+				EFB9A84E179E41A700408525 /* CoreGraphics.framework */,
+				EFB9A871179E41A800408525 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB9A850179E41A700408525 /* GataDrideDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				EFA64EC517A290FE00C5CFCA /* ZoomLevel */,
+				EFB9A859179E41A700408525 /* AppDelegate.h */,
+				EFB9A85A179E41A700408525 /* AppDelegate.m */,
+				EFB9A862179E41A800408525 /* ViewController.h */,
+				EFB9A863179E41A800408525 /* ViewController.m */,
+				EFB9A865179E41A800408525 /* ViewController_iPhone.xib */,
+				EFB9A868179E41A800408525 /* ViewController_iPad.xib */,
+				EFB9A851179E41A700408525 /* Supporting Files */,
+			);
+			path = GataDrideDemo1;
+			sourceTree = "<group>";
+		};
+		EFB9A851179E41A700408525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9EA0017A3F86E00BA1189 /* gg2.png */,
+				EFA8578E17A0E71D00BBCB2F /* gg.png */,
+				EFB9A895179E690400408525 /* Icon.png */,
+				EFB9A852179E41A700408525 /* GattaMap-Info.plist */,
+				EFB9A853179E41A700408525 /* InfoPlist.strings */,
+				EFB9A856179E41A700408525 /* main.m */,
+				EFB9A858179E41A700408525 /* GattaMap-Prefix.pch */,
+				EFB9A85C179E41A700408525 /* Default.png */,
+				EFB9A85E179E41A800408525 /* Default@2x.png */,
+				EFB9A860179E41A800408525 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB9A877179E41A800408525 /* GataDrideDemo1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9A87D179E41A800408525 /* GataDrideDemo1Tests.h */,
+				EFB9A87E179E41A800408525 /* GataDrideDemo1Tests.m */,
+				EFB9A878179E41A800408525 /* Supporting Files */,
+			);
+			path = GataDrideDemo1Tests;
+			sourceTree = "<group>";
+		};
+		EFB9A878179E41A800408525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9A879179E41A800408525 /* GattaMapTests-Info.plist */,
+				EFB9A87A179E41A800408525 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB9A88C179E444300408525 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9A891179E47A200408525 /* DDAnnotation.h */,
+				EFB9A892179E47A200408525 /* DDAnnotation.m */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB9A846179E41A700408525 /* GattaMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB9A882179E41A800408525 /* Build configuration list for PBXNativeTarget "GattaMap" */;
+			buildPhases = (
+				EFB9A843179E41A700408525 /* Sources */,
+				EFB9A844179E41A700408525 /* Frameworks */,
+				EFB9A845179E41A700408525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GattaMap;
+			productName = GataDrideDemo1;
+			productReference = EFB9A847179E41A700408525 /* GattaMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB9A86F179E41A800408525 /* GattaMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB9A885179E41A800408525 /* Build configuration list for PBXNativeTarget "GattaMapTests" */;
+			buildPhases = (
+				EFB9A86B179E41A800408525 /* Sources */,
+				EFB9A86C179E41A800408525 /* Frameworks */,
+				EFB9A86D179E41A800408525 /* Resources */,
+				EFB9A86E179E41A800408525 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB9A876179E41A800408525 /* PBXTargetDependency */,
+			);
+			name = GattaMapTests;
+			productName = GataDrideDemo1Tests;
+			productReference = EFB9A870179E41A800408525 /* GattaMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB9A83F179E41A700408525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Artoon020;
+			};
+			buildConfigurationList = EFB9A842179E41A700408525 /* Build configuration list for PBXProject "GattaMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFB9A83E179E41A700408525;
+			productRefGroup = EFB9A848179E41A700408525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB9A846179E41A700408525 /* GattaMap */,
+				EFB9A86F179E41A800408525 /* GattaMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB9A845179E41A700408525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9A855179E41A700408525 /* InfoPlist.strings in Resources */,
+				EFB9A85D179E41A700408525 /* Default.png in Resources */,
+				EFB9A85F179E41A800408525 /* Default@2x.png in Resources */,
+				EFB9A861179E41A800408525 /* Default-568h@2x.png in Resources */,
+				EFB9A867179E41A800408525 /* ViewController_iPhone.xib in Resources */,
+				EFB9A86A179E41A800408525 /* ViewController_iPad.xib in Resources */,
+				EFB9A896179E690400408525 /* Icon.png in Resources */,
+				EFA8578F17A0E71D00BBCB2F /* gg.png in Resources */,
+				EFA9EA0117A3F86E00BA1189 /* gg2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB9A86D179E41A800408525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9A87C179E41A800408525 /* InfoPlist.strings in Resources */,
+				EFB9A897179E690400408525 /* Icon.png in Resources */,
+				EFA8579017A0E71D00BBCB2F /* gg.png in Resources */,
+				EFA9EA0217A3F86E00BA1189 /* gg2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFB9A86E179E41A800408525 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB9A843179E41A700408525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9A857179E41A700408525 /* main.m in Sources */,
+				EFB9A85B179E41A700408525 /* AppDelegate.m in Sources */,
+				EFB9A864179E41A800408525 /* ViewController.m in Sources */,
+				EFB9A893179E47A200408525 /* DDAnnotation.m in Sources */,
+				EFA64EC817A2911400C5CFCA /* MKMapView+ZoomLevel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB9A86B179E41A800408525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB9A87F179E41A800408525 /* GataDrideDemo1Tests.m in Sources */,
+				EFB9A894179E47A200408525 /* DDAnnotation.m in Sources */,
+				EFA64EC917A2911400C5CFCA /* MKMapView+ZoomLevel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB9A876179E41A800408525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB9A846179E41A700408525 /* GattaMap */;
+			targetProxy = EFB9A875179E41A800408525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB9A853179E41A700408525 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB9A854179E41A700408525 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFB9A865179E41A800408525 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB9A866179E41A800408525 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EFB9A868179E41A800408525 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB9A869179E41A800408525 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		EFB9A87A179E41A800408525 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB9A87B179E41A800408525 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB9A880179E41A800408525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB9A881179E41A800408525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB9A883179E41A800408525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GataDrideDemo1/GattaMap-Prefix.pch";
+				INFOPLIST_FILE = "GataDrideDemo1/GattaMap-Info.plist";
+				PRODUCT_NAME = GattaMap;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFB9A884179E41A800408525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GataDrideDemo1/GattaMap-Prefix.pch";
+				INFOPLIST_FILE = "GataDrideDemo1/GattaMap-Info.plist";
+				PRODUCT_NAME = GattaMap;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFB9A886179E41A800408525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GataDrideDemo1.app/GataDrideDemo1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GataDrideDemo1/GataDrideDemo1-Prefix.pch";
+				INFOPLIST_FILE = "GataDrideDemo1Tests/GattaMapTests-Info.plist";
+				PRODUCT_NAME = GattaMapTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EFB9A887179E41A800408525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GataDrideDemo1.app/GataDrideDemo1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GataDrideDemo1/GataDrideDemo1-Prefix.pch";
+				INFOPLIST_FILE = "GataDrideDemo1Tests/GattaMapTests-Info.plist";
+				PRODUCT_NAME = GattaMapTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB9A842179E41A700408525 /* Build configuration list for PBXProject "GattaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB9A880179E41A800408525 /* Debug */,
+				EFB9A881179E41A800408525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB9A882179E41A800408525 /* Build configuration list for PBXNativeTarget "GattaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB9A883179E41A800408525 /* Debug */,
+				EFB9A884179E41A800408525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB9A885179E41A800408525 /* Build configuration list for PBXNativeTarget "GattaMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB9A886179E41A800408525 /* Debug */,
+				EFB9A887179E41A800408525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB9A83F179E41A700408525 /* Project object */;
+}
